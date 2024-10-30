@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;  /* لون خلفية لطيف */
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;  /* جعل النص في المنتصف */
+}
+
+h1 {
+  color: #4a4a4a;  /* لون أكثر نعومة */
+  margin: 0;
+  font-size: 28px;  /* حجم خط أكبر */
+}
+
+h2 {
+  color: #7a7a7a;  /* لون أفتح لعنوان فرعي */
+  margin-top: 5px;
+  font-size: 20px;  /* حجم خط فرعي */
+}
+
+label {
+  display: block;
+  margin-top: 20px;
+  font-weight: bold;
+  color: #333;  /* لون نص العناوين */
+}
+
+input[type="text"],
+input[type="file"],
+button {
+  width: 100%;
+  padding: 12px;  /* زيادة الحشو لجعل المدخلات أكثر راحة */
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1);  /* تأثير ظل داخلي */
+}
+
+button {
+  background-color: #28a745;  /* لون زر جذاب */
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;  /* تباعد أعلى الزر */
+  transition: background-color 0.3s;  /* تأثير انتقال لزر */
+}
+
+button:hover {
+  background-color: #218838;  /* تغيير لون الزر عند التحويم */
+}
+
+.location-info {
+  margin-top: 10px;  /* تباعد عن المعلومات */
+  font-size: 14px;
+  color: #555;  /* لون النص للمعلومات */
+}
